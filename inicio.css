@@ -129,13 +129,15 @@ h2{
   color: white;
 }
 
+
 .etapas-container{
   background-color: #1b1b1b;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
 }
+
 
 .etapa img{
   width: 280px;
